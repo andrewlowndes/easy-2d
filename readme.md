@@ -36,6 +36,12 @@ Add the script tag below or download it an bundle it with your own scripts.
 <script src="http://unpkg.com/apl-easy-2d/lib/apl-easy-2d.min.js"></script>
 ```
 
+If you need to use a function that requires the 3rd-party library and have not included them separetely then include the umd which comes bundled with all dependencies.
+
+```html
+<script src="http://unpkg.com/apl-easy-2d/lib/apl-easy-2d.umd.js"></script>
+```
+
 ## TODO
 - Add unit tests to all functions
 

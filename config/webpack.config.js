@@ -41,7 +41,7 @@ module.exports = [
       globalObject: 'this'
     },
     externals: {
-      moment: 'moment'
+      poly2tri: 'poly2tri'
     }
   }
 ];
