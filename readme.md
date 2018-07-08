@@ -3,8 +3,6 @@ Various helper functions to perform mathematical and geometry operations in two 
 
 ## Included functions
 
----
-
 ### Geometry functions
 rotate, rotateAround, windingOrder, triangulatePolygons
 
@@ -23,6 +21,8 @@ boxLineIntersection, boxRayIntersection, pointInBox, pointInTriangle, pointInCur
 ---
 ### 2D vector math functions
 scale, multiply, divide, add, adds, sub, floor, abs, sign, dot, equal, length, normalize, avg, inRange
+
+---
 
 ## Using in node
 Install via `npm install apl-easy-2d`, then import via ES6 Modules:
