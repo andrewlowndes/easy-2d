@@ -1,0 +1,10 @@
+import { Line } from "../interfaces/Line";
+import { Vec2 } from "../interfaces/Vec2";
+import { Ray } from "../interfaces/Ray";
+import { CurveDirection } from "../interfaces/CurveDirection";
+export declare function boxLineIntersection(a: Vec2, b: Vec2, min: Vec2, max: Vec2): Line;
+export declare function boxRayIntersection(ray: Ray, min: Vec2, max: Vec2): Vec2;
+export declare function pointInBox(p: Vec2, min: Vec2, max: Vec2): boolean;
+export declare function pointInTriangle(p: Vec2, p0: Vec2, p1: Vec2, p2: Vec2): boolean;
+export declare function pointInCurve(p: Vec2, p0: Vec2, p1: Vec2, p2: Vec2, dir: CurveDirection): boolean;
+export declare function barycentricCoords(p: Vec2, p0: Vec2, p1: Vec2, p2: Vec2): Vec2;

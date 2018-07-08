@@ -1,0 +1,16 @@
+import { Vec2 } from '../interfaces/Vec2';
+export declare function scale(p1: Vec2, a: number): Vec2;
+export declare function multiply(p1: Vec2, p2: Vec2): Vec2;
+export declare function divide(p1: Vec2, p2: Vec2): Vec2;
+export declare function add(p1: Vec2, p2: Vec2): Vec2;
+export declare function adds(p1: Vec2, a: number): Vec2;
+export declare function sub(p1: Vec2, p2: Vec2): Vec2;
+export declare function floor(p1: Vec2): Vec2;
+export declare function abs(p1: Vec2): Vec2;
+export declare function sign(p1: Vec2): Vec2;
+export declare function dot(p1: Vec2, p2: Vec2): number;
+export declare function equal(p1: Vec2, p2: Vec2): boolean;
+export declare function length(p1: Vec2): number;
+export declare function normalize(p1: Vec2): Vec2;
+export declare function avg(arr: Array<Vec2>): Vec2;
+export declare function inRange(p1: Vec2, min: Vec2, max: Vec2): boolean;
